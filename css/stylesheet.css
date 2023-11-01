@@ -1,0 +1,52 @@
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.mainbackground{
+    background-color: #E9EDF4;
+
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.mybackground{
+    background-color:#E9EDF4 ;
+}
+.mybackground.navbar-scroll{
+    background-color: white !important;
+}
+  
+.nav-item:hover .nav-link{
+    color: #7153d9;
+}
+.main-subtile{
+    font-size: 24px;
+    font-weight: 500;
+    color: #7153d9;
+}
+.main-title{
+    font-size: 72px;
+    font-weight: 500;
+}
+.main-p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #54545f;
+}
+.main-btn {
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+    border-radius: 45px;  
+}
+.featur-icon{
+    background-color: #f2f5fb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 91px;
+}
