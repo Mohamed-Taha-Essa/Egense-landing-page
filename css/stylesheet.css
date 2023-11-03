@@ -50,3 +50,33 @@ body{
     text-align: center;
     line-height: 91px;
 }
+.sevice-title{
+
+    letter-spacing: 9px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7153d9;
+}
+
+.service-subtitle{
+    font-size: 60px;
+    font-weight: 500;
+}
+.mycard{
+    box-shadow: 0px 12px 42px rgba(69,38,177,0.1) ,11px 6px 25px rgba(69,38,177,0.1);
+    border-radius: 20px;
+}
+.readmore{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #1c1c1c;
+    margin-top: 30px;
+    display: block;
+    transition: .3s;
+}
+.readmore:hover{
+    margin-left: 20px;
+    color: #4526b1;
+}
