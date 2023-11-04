@@ -4,13 +4,33 @@ body{
 
 .mainbackground{
     background-color: #E9EDF4;
+    margin-top: 100px;
+
 
 }
 .nav-link{
     font-size: 18px;
     font-weight: 500;
     color: black;
+    margin-right: 50px;
+    
 }
+.phone{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #7153d9 0%, #5435be 45%, #4526b1 66%);
+    border-radius: 28px;
+    text-align: center;
+    line-height: 49px;
+    content: '';
+    color: white;
+}
+.un-l{
+    line-height: 50px;
+    
+
+}
+
 .mybackground{
     background-color:#E9EDF4 ;
 }
@@ -80,3 +100,65 @@ body{
     margin-left: 20px;
     color: #4526b1;
 }
+
+
+
+/* media query */
+/* for mobile */
+
+
+@media (max-width: 578px) {
+    .img{
+        margin-top: 40px;
+    }
+    .main-title{
+
+        font-size: 36px;
+    }
+    .main-p{
+        font-size: 16px;
+         margin-top: 10px;
+    }
+    .feature-card{
+        margin-top: 20px;
+
+    }
+    .img-2{
+        margin-top: 24px;
+
+    }
+    .service-subtitle{
+        font-size: 30px;
+    }
+    .sevice-title{
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+  }
+
+@media (min-width:577px)and (max-width:991px) {
+    .main-subtile{
+        font-size: 20px;
+        letter-spacing: 5px;
+            }
+    .main-title{
+        font-size: 50px;
+    
+    }
+    .img{
+        margin-top: 40px;
+    }
+    .sevice-title{
+        font-size: 18px;
+        font-family: "Jost", sans-serif;
+        font-weight: 500;
+        line-height: 1.9;
+        color: #7153d9;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+    }
+    .service-subtitle{
+        font-size: 50px;
+    }
+    }
+    
